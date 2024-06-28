@@ -21,9 +21,6 @@ public class FXMLExample extends Application {
         stage.show();
     }
     public static void main(String[] args) {
-        Properties props = System.getProperties();
-//        props.list(System.out);
-        props.setProperty("javafx.allowjs", "true");
         launch(args);
     }
 }
